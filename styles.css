@@ -1,6 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
+a {
+    all: initial;
+    color: black;
+}
 
-
+.header-links a:hover{
+        background-color: #5f39aa; 
+        color: white;
+}
 
 
 #wordmark-header-logo {
@@ -16,15 +33,23 @@ header {
     padding: 15px;
     height: 20px;
 }
+.header-links a{
+    margin-left: 3px;
+}
 
-
-
-
-
-
+.dropbtn{
+    all: initial;
+    color: black;
+    
+}
+.dropbtn:hover{
+    background-color: #5f39aa;
+    color: white;
+}
 
 
 .dropdown {
+    margin-top: 5%;
     position: relative; 
     display: inline-block; 
 }
@@ -32,7 +57,7 @@ header {
 .dropdown-content {
     display: none; 
     position: absolute; 
-    background-color: #f9f9f9; 
+    background-color: gray; 
     min-width: 160px; 
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
     z-index: 1; 
@@ -46,7 +71,8 @@ header {
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd; 
+    background-color: #5f39aa; 
+    color: white;
 }
 
 .dropdown:hover .dropdown-content {
@@ -54,21 +80,40 @@ header {
 }
 
 #article-img-1, #article-img-2, #article-img-3{
-    height: 400px;
-    width: 750px;
+    height: 375px;
+    width: 650px;
     border-style: solid;
     border-color: #5f39aa;
     border-width: 5px;
 }
 
+#article{
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    align-self: center;
+    margin-left: 3%;
+}
+
+#article h2{
+    margin-bottom: 3%;
+}
+
 #home-article-container-1, #home-article-container-2, #home-article-container-3{
-    margin-top: 25px;
+    margin-top: 8%;
     display: flex;
     flex-direction: row;
+    font-size: large;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #home-article-container-2{
     text-align: right;
+}
+
+#home-article-container-2 #article {
+    margin-right: 3%;
 }
 
 
@@ -77,18 +122,22 @@ footer{
     background-color: #545454;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 8%;
 }
 
 #footer-right{
     display: flex;
     width: 15%;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
     color: white;
     position: absolute;
     margin-left: 80%;
     margin-right: 15px;
+}
+
+#footer-right a:hover{
+    background-color: #5f39aa;
 }
 
 #wordmark-footer-logo {
