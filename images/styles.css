@@ -1,0 +1,103 @@
+
+
+
+
+
+#wordmark-header-logo {
+    height: 125px;
+    width: 125px;
+    margin-top: -50px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background: #545454;
+    color: black;
+    padding: 15px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+.dropdown {
+    position: relative; 
+    display: inline-block; 
+}
+
+.dropdown-content {
+    display: none; 
+    position: absolute; 
+    background-color: #f9f9f9; 
+    min-width: 160px; 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+    z-index: 1; 
+}
+
+.dropdown-content a {
+    color: black; 
+    padding: 12px 16px; 
+    text-decoration: none; 
+    display: block; 
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd; 
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; 
+}
+
+#article-img-1, #article-img-2, #article-img-3{
+    height: 400px;
+    width: 750px;
+    border-style: solid;
+    border-color: #5f39aa;
+    border-width: 5px;
+}
+
+#home-article-container-1, #home-article-container-2, #home-article-container-3{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+#home-article-container-2{
+    text-align: right;
+}
+
+
+footer{
+    height: 55px;
+    background-color: #545454;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#footer-right{
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+    align-content: center;
+    color: white;
+    position: absolute;
+    margin-left: 80%;
+    margin-right: 15px;
+}
+
+#wordmark-footer-logo {
+    height: 100px;
+    width: 150px;
+    margin-top: -20px;
+    
+}
+#github-footer-logo{
+    height: 45px;
+    margin-top: 5px;
+}
