@@ -275,16 +275,19 @@ footer{
 }
 
 @media only screen 
-    and (min-width: 430px) and (orientation: portrait) { 
+    and (min-width: 430px) and (orientation: portrait) {
+        body{
+            max-width: 430px;
+        } 
         img {
             height: 30%;
             width: 50%;
         }
         #article {
-            max-width: 50%;
+            max-width: 100%;
         }
         header{
-            min-width: 100%;
+            max-width: 100%px;
         }
         footer{
             min-width: 100%
