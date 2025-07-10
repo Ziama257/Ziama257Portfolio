@@ -109,8 +109,8 @@ header {
 
 #article-img-1, #article-img-2, #article-img-3{
     height: 250px;
-    min-width: 460px;
-    max-width: 460px;
+    min-width: 430px;
+    max-width: 430px;
     border-style: solid;
     border-color: #5f39aa;
     border-width: 5px;
@@ -283,9 +283,9 @@ footer{
 }
 
 @media screen 
-    and (max-width: 460px) and (orientation: portrait) {
+    and (max-width: 430px) and (orientation: portrait) {
         body{
-            max-width: 460px !important;
+            max-width: 430px !important;
         } 
         .header-links a {
             font-size: 12px;
