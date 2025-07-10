@@ -275,9 +275,9 @@ footer{
 }
 
 @media only screen 
-    and (min-width: 430px) and (orientation: portrait) {
+    and (min-width: 440px) and (orientation: portrait) {
         body{
-            max-width: 430px;
+            max-width: 393px;
         } 
         img {
             max-height: 25%;
@@ -287,13 +287,13 @@ footer{
             max-width: 80%;
         }
         header{
-            min-width: 429px;
+            min-width: 393px;
         }
         footer{
-            min-width: 429px;
+            min-width: 393px;
         }
         #subheader-banner{
-            font-size: large;
-            min-width: 400px;
+            font-size: medium;
+            min-width: 393px;
         }
 }
