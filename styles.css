@@ -92,6 +92,21 @@ header {
     display: block; 
 }
 
+#subheader-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-self: center;
+    width: 90%;
+    margin-top: 25px;
+}
+
+#subheader-banner h1 {
+    font-size: 25px;
+    color: #8B8888;
+    opacity: .7;
+}
+
 #article-img-1, #article-img-2, #article-img-3{
     height: 250px;
     min-width: 460px;
