@@ -275,9 +275,7 @@ footer{
 }
 
 @media only screen 
-    and (min-device-width: 375px) 
-    and (max-device-width: 812px) 
-    and (-webkit-min-device-pixel-ratio: 3) { 
+    and (min-width: 430px) and (orientation: portrait) { 
         img {
             height: 30%;
             width: 50%;
