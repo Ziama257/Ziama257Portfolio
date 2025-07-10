@@ -280,19 +280,20 @@ footer{
             max-width: 430px;
         } 
         img {
-            height: 30%;
-            width: 50%;
+            max-height: 25%;
+            max-width: 35%;
         }
         #article {
-            max-width: 100%;
+            max-width: 80%;
         }
         header{
-            max-width: 100%px;
+            min-width: 430px;
         }
         footer{
-            min-width: 100%
+            min-width: 430px;
         }
         #subheader-banner{
             font-size: large;
+            min-width: 400px;
         }
 }
