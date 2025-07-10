@@ -273,3 +273,25 @@ footer{
     padding: 0 5px;
     margin-top: 3px;
 }
+
+@media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 812px) 
+    and (-webkit-min-device-pixel-ratio: 3) { 
+        img {
+            height: 30%;
+            width: 50%;
+        }
+        #article {
+            max-width: 50%;
+        }
+        header{
+            min-width: 100%;
+        }
+        footer{
+            min-width: 100%
+        }
+        #subheader-banner{
+            font-size: large;
+        }
+}
